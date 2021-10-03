@@ -1,0 +1,149 @@
+<!doctype html>
+<title>Snapshot Differences | Insta</title>
+<style type=text/css>
+  body {
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    margin: 30px;
+    padding: 0;
+    background: white;
+    color: #111;
+  }
+  pre {
+    margin: 0;
+  }
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  table.diff {
+    font-family: monospace;
+    font-size: 15px;
+    border: 1px solid #555;
+  }
+  td.old-line, td.new-line {
+    background: #ccc;
+    width: 60px;
+    text-align: right;
+    padding-right: 8px;
+    border-right: 1px solid #555;
+  }
+  tr.group-marker {
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    background: #eee;
+    text-align: center;
+  }
+  td.change {
+    background: #eee;
+    padding-left: 8px;
+  }
+  tr.op-delete td.change, tr.op-delete th {
+    background: rgb(222, 162, 162);
+    text-align: left;
+  }
+  tr.op-insert td.change, tr.op-insert th {
+    background: rgb(195, 222, 162);
+    text-align: left;
+  }
+</style>
+<header>
+  <h1>Snapshot Differences</h1>
+</header>
+<main>
+  
+  <div class=snapshot>
+    <dl>
+      <dt>Snapshot</dt>
+      <dd><code>redact_newtype_struct</code></dd>
+      <dt>Source</dt>
+      <dd><code>tests&#x2f;test_redaction.rs:201</code></dd>
+      
+    </dl>
+  </div>
+
+  <table class=diff>
+  
+    <tr class=op-delete>
+      <th colspan=2>
+      <th>Old Snapshot
+    <tr class=op-insert>
+      <th colspan=2>
+      <th>New Results
+  <tr class=group-marker>
+    <td colspan=3>…</td>
+  </tr>
+    
+    <tr class=op-equal>
+      <td class=old-line>
+        
+      <td class=new-line>
+        
+      <td class=change>
+        <pre><code class=op> </code><code class=line>{
+</code></pre></td>
+    </tr>
+    
+    <tr class=op-delete>
+      <td class=old-line>
+        2
+      <td class=new-line>
+        
+      <td class=change>
+        <pre><code class=op>-</code><code class=line>  &quot;id&quot;: &quot;[id]&quot;,
+</code></pre></td>
+    </tr>
+    
+    <tr class=op-insert>
+      <td class=old-line>
+        
+      <td class=new-line>
+        2
+      <td class=change>
+        <pre><code class=op>+</code><code class=line>  &quot;id&quot;: &quot;[int-id]&quot;,
+</code></pre></td>
+    </tr>
+    
+    <tr class=op-equal>
+      <td class=old-line>
+        3
+      <td class=new-line>
+        3
+      <td class=change>
+        <pre><code class=op> </code><code class=line>  &quot;username&quot;: &quot;john_doe&quot;,
+</code></pre></td>
+    </tr>
+    
+    <tr class=op-equal>
+      <td class=old-line>
+        4
+      <td class=new-line>
+        4
+      <td class=change>
+        <pre><code class=op> </code><code class=line>  &quot;email&quot;: &quot;john@example.com&quot;,
+</code></pre></td>
+    </tr>
+    
+    <tr class=op-equal>
+      <td class=old-line>
+        5
+      <td class=new-line>
+        5
+      <td class=change>
+        <pre><code class=op> </code><code class=line>  &quot;extra&quot;: &quot;&quot;
+</code></pre></td>
+    </tr>
+    
+    <tr class=op-equal>
+      <td class=old-line>
+        6
+      <td class=new-line>
+        6
+      <td class=change>
+        <pre><code class=op> </code><code class=line>}</code></pre></td>
+    </tr>
+    
+  
+  </table>
+
+</main>
